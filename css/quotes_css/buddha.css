@@ -1,0 +1,12 @@
+/* the buddha */
+/* line 3, buddha.sass */
+body, html { background: #19bde6; }
+
+/* line 7, buddha.sass */
+.normal { font-family: "JournalRegular", cursive; font-size: 9.5em; }
+
+/* line 11, buddha.sass */
+.light { font-family: "Open Sans", sans-serif; font-size: 6.6em; font-weight: 300; letter-spacing: -5px; }
+
+/* line 17, buddha.sass */
+.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }

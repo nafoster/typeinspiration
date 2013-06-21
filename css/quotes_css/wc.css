@@ -1,0 +1,21 @@
+/* winston churchill */
+/* line 5, wc.sass */
+body, html { background: #2c4763; color: white; }
+
+/* line 10, wc.sass */
+.normal { font-family: "Open Sans", sans-serif; font-size: 5.2em; font-weight: 300; font-style: italic; letter-spacing: -3px; }
+
+/* line 17, wc.sass */
+.bold { font-family: "ChunkFiveRegular", sans-serif; font-size: 10em; }
+
+/* line 21, wc.sass */
+.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }
+
+/* line 27, wc.sass */
+footer { color: white; }
+/* line 29, wc.sass */
+footer hr { border: solid white; border-width: 1px 0 0; }
+/* line 32, wc.sass */
+footer a { color: white; }
+/* line 34, wc.sass */
+footer a:hover { color: #191919; }

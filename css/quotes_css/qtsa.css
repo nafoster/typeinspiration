@@ -1,0 +1,18 @@
+/* queens of the stone age */
+/* line 3, qtsa.sass */
+body, html { background: #c90000; }
+
+/* line 7, qtsa.sass */
+.normal { font-family: "BebasNeueRegular", sans-serif; font-size: 6.4em; text-transform: uppercase; font-weight: bold; letter-spacing: -3px; }
+
+/* line 14, qtsa.sass */
+.normal-small { font-family: "BebasNeueRegular", sans-serif; font-size: 4.2em; text-transform: uppercase; font-weight: bold; letter-spacing: -3px; }
+
+/* line 21, qtsa.sass */
+.light { font-family: "Open Sans", sans-serif; font-size: 7em; text-transform: uppercase; font-weight: 300; letter-spacing: 1px; }
+
+/* line 28, qtsa.sass */
+.cursive { font-family: "Pacifico", cursive; font-size: 5.8em; margin: 0 0 15px 15px; }
+
+/* line 33, qtsa.sass */
+.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }

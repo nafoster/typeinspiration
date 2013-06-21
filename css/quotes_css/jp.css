@@ -1,0 +1,21 @@
+/* the buddha */
+/* line 5, jp.sass */
+body, html { background: #fc0317; color: white; }
+
+/* line 10, jp.sass */
+.bold { font-family: "ChunkFiveRegular", serif; font-size: 8em; }
+
+/* line 14, jp.sass */
+.normal { font-family: "Open Sans", sans-serif; font-size: 6.6em; font-weight: 300; letter-spacing: -5px; }
+
+/* line 20, jp.sass */
+.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }
+
+/* line 26, jp.sass */
+footer { color: white; }
+/* line 28, jp.sass */
+footer hr { border: solid white; border-width: 1px 0 0; }
+/* line 31, jp.sass */
+footer a { color: white; }
+/* line 33, jp.sass */
+footer a:hover { color: #191919; }
