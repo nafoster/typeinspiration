@@ -1,6 +1,6 @@
 <?php
 $links = array (
-"index.php",
+"qotsa.php",
 "jk.php",
 "wc.php",
 "buddha.php",

@@ -26,30 +26,11 @@
 </head>
 <body>
 
-<div class="row">
-		<div class="small-1 column generate">
-			<span data-tooltip class="has-tip tip-right" title="Get a new quote"><a href="random.php"><i class="foundicon-refresh"></i></a></span>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="large-12 columns">
-			<span class="normal">I want something</span> <br>
-			<span class="light">good to die for</span><br>
-			<span class="normal-small">to make it</span>
-			<span class="cursive">beautiful to live</span><br>
-			<span class="credit"> - "Go with the Flow" by Queens of the Stone Age</span>
-		</div>
-	</div>
- 
-
- 
-  <footer class="row">
-    <div class="large-12 columns">
-        <hr>
-      Type Inspiration | <a href="mailto:nicole@nicolefosterdesigns.com">Submit a Quote</a> | Made by <a href="http://www.nicolefosterdesigns.com">Nicole Foster</a>
-    </div>
-  </footer>
+<?php
+$pagesArray = array('qotsa.php', 'buddha.php', 'jk.php', 'jl.php', 'wc.php');
+$randNum = rand(0, count($pagesArray)-1);
+include $pagesArray[$randNum];
+?>
 
   <script>
   document.write('<script src=' +
