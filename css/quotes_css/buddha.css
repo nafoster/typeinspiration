@@ -1,12 +1,78 @@
 /* the buddha */
-/* line 3, buddha.sass */
-body, html { background: #19bde6; }
+body, html {
+  background: #19bde6;
+}
 
-/* line 7, buddha.sass */
-.normal { font-family: "JournalRegular", cursive; font-size: 9.5em; }
+.normal {
+  font-family: "JournalRegular", cursive;
+  font-size: 9.5em;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .normal {
+    font-size: 3em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .normal {
+    font-size: 4em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .normal {
+    font-size: 4.5em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .normal {
+    font-size: 6em;
+  }
+}
 
-/* line 11, buddha.sass */
-.light { font-family: "Open Sans", sans-serif; font-size: 6.6em; font-weight: 300; letter-spacing: -5px; }
+.light {
+  font-family: "Open Sans", sans-serif;
+  font-size: 6.6em;
+  font-weight: 300;
+  letter-spacing: -5px;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .light {
+    font-size: 3em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .light {
+    font-size: 3.5em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .light {
+    font-size: 4em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .light {
+    font-size: 5em;
+  }
+}
 
-/* line 17, buddha.sass */
-.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }
+.credit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 300;
+  line-height: 3em;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .credit {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .credit {
+    font-size: 1.4em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .credit {
+    font-size: 1.5em;
+  }
+}

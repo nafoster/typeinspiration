@@ -5,7 +5,8 @@ $links = array (
 "wc.php",
 "buddha.php",
 "jp.php",
-"jl.php"
+"jl.php",
+"jg.php"
 );
 $href = rand(0, count($links) -1);
 
