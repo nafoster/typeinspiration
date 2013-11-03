@@ -1,5 +1,7 @@
 /* the buddha */
 
+@import "media-queries"
+
 body, html
 	background: #19bde6
 
@@ -7,15 +9,37 @@ body, html
 .normal
 	font-family: 'JournalRegular', cursive
 	font-size: 9.5em
+	@include screen(300px, 480px)
+		font-size: 3em !important
+	@include screen(481px, 640px)
+		font-size: 4em !important
+	@include screen(641px, 768px)
+		font-size: 4.5em !important
+	@include max-screen(1006px)
+		font-size: 6em
 
 .light
 	font-family: 'Open Sans', sans-serif
 	font-size: 6.6em
 	font-weight: 300
 	letter-spacing: -5px
+	@include screen(300px, 480px)
+		font-size: 3em !important
+	@include screen(481px, 640px)
+		font-size: 3.5em !important
+	@include screen(641px, 768px)
+		font-size: 4em !important
+	@include max-screen(1006px)
+		font-size: 5em
 
 .credit
 	font-family: 'Open Sans', sans-serif
 	font-size: 1.9em
 	font-weight: 300
 	line-height: 3em
+	@include screen(300px, 480px)
+		font-size: 1.2em !important
+	@include screen(481px, 640px)
+		font-size: 1.4em !important
+	@include screen(641px, 768px)
+		font-size: 1.5em

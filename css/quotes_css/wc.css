@@ -1,21 +1,94 @@
 /* winston churchill */
-/* line 5, wc.sass */
-body, html { background: #2c4763; color: white; }
+body, html {
+  background: #2c4763;
+  color: white;
+}
 
-/* line 10, wc.sass */
-.normal { font-family: "Open Sans", sans-serif; font-size: 5.2em; font-weight: 300; font-style: italic; letter-spacing: -3px; }
+.normal {
+  font-family: "Open Sans", sans-serif;
+  font-size: 5.2em;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -3px;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .normal {
+    font-size: 2.5em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .normal {
+    font-size: 3.3em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .normal {
+    font-size: 3.9em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .normal {
+    font-size: 4.5em;
+  }
+}
 
-/* line 17, wc.sass */
-.bold { font-family: "ChunkFiveRegular", sans-serif; font-size: 10em; }
+.bold {
+  font-family: "ChunkFiveRegular", sans-serif;
+  font-size: 10em;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .bold {
+    font-size: 3em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .bold {
+    font-size: 3.8em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .bold {
+    font-size: 4em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .bold {
+    font-size: 6em;
+  }
+}
 
-/* line 21, wc.sass */
-.credit { font-family: "Open Sans", sans-serif; font-size: 1.9em; font-weight: 300; line-height: 3em; }
+.credit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 300;
+  line-height: 3em;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .credit {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .credit {
+    font-size: 1.4em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .credit {
+    font-size: 1.5em;
+  }
+}
 
-/* line 27, wc.sass */
-footer { color: white; }
-/* line 29, wc.sass */
-footer hr { border: solid white; border-width: 1px 0 0; }
-/* line 32, wc.sass */
-footer a { color: white; }
-/* line 34, wc.sass */
-footer a:hover { color: #191919; }
+footer {
+  color: white;
+}
+footer hr {
+  border: solid white;
+  border-width: 1px 0 0;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #191919;
+}

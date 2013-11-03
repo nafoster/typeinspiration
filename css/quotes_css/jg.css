@@ -1,57 +1,84 @@
-/* the buddha */
+/* john green */
 body, html {
-  background: #19bde6;
+  background: #ed1275;
 }
 
 .normal {
-  font-family: "JournalRegular", cursive;
-  font-size: 9.5em;
+  font-family: "Arvo", sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -3px;
 }
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .normal {
-    font-size: 3em !important;
+    font-size: 2em !important;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
   .normal {
-    font-size: 4em !important;
+    font-size: 2.5em !important;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .normal {
-    font-size: 4.5em !important;
+    font-size: 3.3em !important;
   }
 }
 @media screen and (max-width: 1006px) {
   .normal {
-    font-size: 6em;
+    font-size: 4em;
   }
 }
 
 .light {
   font-family: "Open Sans", sans-serif;
-  font-size: 6.6em;
+  font-size: 5em;
   font-weight: 300;
-  letter-spacing: -5px;
+  letter-spacing: 1px;
 }
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .light {
-    font-size: 3em !important;
+    font-size: 2em !important;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
   .light {
-    font-size: 3.5em !important;
+    font-size: 3em !important;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .light {
-    font-size: 4em !important;
+    font-size: 3.5em !important;
   }
 }
-@media screen and (max-width: 1006px) {
+@media screen and (min-width: 769px) and (max-width: 1006px) {
   .light {
-    font-size: 5em;
+    font-size: 4.4em;
+  }
+}
+
+.cursive {
+  font-family: "Pacifico", cursive;
+  font-size: 5.5em;
+  margin: 0 0 15px 15px;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .cursive {
+    font-size: 2.5em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .cursive {
+    font-size: 3em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .cursive {
+    font-size: 3.5em !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1006px) {
+  .cursive {
+    font-size: 4.5em;
   }
 }
 

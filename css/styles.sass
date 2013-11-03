@@ -1,5 +1,7 @@
 /* mixins and variables */
 
+@import "quotes_css/media-queries"
+
 $white: #fff
 $dark: #191919
 
@@ -15,9 +17,17 @@ body
 	padding: 10px 0
 	margin: 0 0 60px
 	text-align: center
+	@include screen(300px, 480px)
+		margin-left: 10px
+	@include screen(481, 640px)
+		margin-left: 10px
 	.foundicon-refresh
 		color: $white
 		font-size: 2.5em
+		@include screen(300px, 480px)
+			font-size: 1.5em
+		@include screen(481, 640px)
+			font-size: 2em
 
 footer 
 	padding: 30px 0

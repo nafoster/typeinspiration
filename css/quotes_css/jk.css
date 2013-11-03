@@ -1,1 +1,95 @@
-body,html{background:#f589b6;color:#fff}.normal{font-family:"Roboto Slab",serif;font-size:5.53em;font-weight:100}.bold{font-family:"Roboto",sans-serif;font-weight:700;font-size:7.6em;letter-spacing:2px;margin:0 20px 0 0}.credit{font-family:"Open Sans",sans-serif;font-size:1.9em;font-weight:300;line-height:3em}footer{color:#fff}footer hr{border:solid #fff;border-width:1px 0 0}footer a{color:#fff}footer a:hover{color:#191919}
+/* jack kerouac */
+body, html {
+  background: #f589b6;
+  color: white;
+}
+
+.normal {
+  font-family: "Roboto Slab", serif;
+  font-size: 5.53em;
+  font-weight: 100;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .normal {
+    font-size: 2.5em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .normal {
+    font-size: 3em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .normal {
+    font-size: 3em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .normal {
+    font-size: 4.6em;
+  }
+}
+
+.bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 7.6em;
+  letter-spacing: 2px;
+  margin: 0 20px 0 0;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .bold {
+    font-size: 2.5em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .bold {
+    font-size: 3.5em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .bold {
+    font-size: 4em !important;
+  }
+}
+@media screen and (max-width: 1006px) {
+  .bold {
+    font-size: 5em;
+  }
+}
+
+.credit {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.9em;
+  font-weight: 300;
+  line-height: 3em;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .credit {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .credit {
+    font-size: 1.4em !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .credit {
+    font-size: 1.5em;
+  }
+}
+
+footer {
+  color: white;
+}
+footer hr {
+  border: solid white;
+  border-width: 1px 0 0;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #191919;
+}

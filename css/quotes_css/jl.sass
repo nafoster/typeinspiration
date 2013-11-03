@@ -1,5 +1,7 @@
 /* john lennon */
 
+@import "media-queries"
+
 body, html
 	background: #22dd95
 
@@ -7,6 +9,14 @@ body, html
 .cursive
 	font-family: 'Shadows Into Light', cursive
 	font-size: 6.2em
+	@include screen(300px, 480px)
+		font-size: 2.5em !important
+	@include screen(481px, 640px)
+		font-size: 3.5em !important
+	@include screen(641px, 768px)
+		font-size: 4em !important
+	@include max-screen(1006px)
+		font-size: 5em
 
 .light
 	font-family: 'Open Sans', sans-serif
@@ -14,6 +24,14 @@ body, html
 	font-weight: 300
 	letter-spacing: -5px
 	font-style: italic
+	@include screen(300px, 480px)
+		font-size: 2.5em !important
+	@include screen(481px, 640px)
+		font-size: 3em !important
+	@include screen(641px, 768px)
+		font-size: 3em !important
+	@include max-screen(1006px)
+		font-size: 4.6em
 
 
 .credit
@@ -21,3 +39,9 @@ body, html
 	font-size: 1.9em
 	font-weight: 300
 	line-height: 3em
+	@include screen(300px, 480px)
+		font-size: 1.2em !important
+	@include screen(481px, 640px)
+		font-size: 1.4em !important
+	@include screen(641px, 768px)
+		font-size: 1.5em
