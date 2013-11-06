@@ -35,9 +35,9 @@
 
 	<div class="row">
 		<div class="large-12 columns">
-			<span class="normal">I don’t know a perfect person.</span> <br>
+			<span class="normal">I don’t know a perfect person</span> <br>
 			<span class="light">I only know flawed people</span><br>
-			<span class="cursive">who are still worth loving.</span><br>
+			<span class="cursive">who are still worth loving</span><br>
 			<span class="credit"> - John Green</span>
 		</div>
 	</div>
@@ -47,7 +47,9 @@
   <footer class="row">
     <div class="large-12 columns">
         <hr>
-      Type Inspiration | <a href="mailto:nicole@nicolefosterdesigns.com">Submit a Quote</a> | Made by <a href="http://www.nicolefosterdesigns.com">Nicole Foster</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;I don't know a perfect person. I only know flawed people who are still worth loving.&quot; -John Green" data-via="TypeInspiration">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+      <a href="mailto:nicole@nicolefosterdesigns.com">Submit a Quote</a> | Made by <a href="http://www.nicolefosterdesigns.com">Nicole Foster</a>
     </div>
   </footer>
 

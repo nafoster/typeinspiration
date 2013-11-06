@@ -34,8 +34,8 @@
 
 	<div class="row">
 		<div class="large-12 columns">
-			<span class="normal">Peace comes from within.</span><br>
-      <span class="light">Do not seek without it.</span>   <br>
+			<span class="normal">Peace comes from within</span><br>
+      <span class="light">Do not seek without it</span>   <br>
       <span class="credit"> - The Buddha</span> 
 		</div>
 	</div>
@@ -43,7 +43,9 @@
     <footer class="row">
     <div class="large-12 columns">
         <hr>
-      Type Inspiration | <a href="mailto:nicole@nicolefosterdesigns.com">Submit a Quote</a> | Made by <a href="http://www.nicolefosterdesigns.com">Nicole Foster</a>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;Peace comes from within. Do not seek without it.&quot; -The Buddha" data-via="TypeInspiration">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+<a href="mailto:nicole@nicolefosterdesigns.com">Submit a Quote</a> | Made by <a href="http://www.nicolefosterdesigns.com">Nicole Foster</a>
     </div>
   </footer> 
 
